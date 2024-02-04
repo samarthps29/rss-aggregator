@@ -2,7 +2,7 @@ Followed along with https://www.youtube.com/watch?v=dpXhDzgUSe4
 
 # RSS Aggregator
 
-An RSS Aggregator built with Go, PostgreSQL, and concurrency.
+An RSS Aggregator built with Go, PostgreSQL.
 
 ## Overview
 
