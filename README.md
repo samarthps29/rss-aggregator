@@ -28,10 +28,12 @@ This RSS Aggregator allows users to follow different RSS feeds, fetch posts from
    cd rss-aggregator
    ```
 2. Setup your databse:
+   
+   POSTGRES_DATABASE_CONNECTION_STRING example - postgres://postgres:root@localhost:5432/rssagg
    ```
    goose postgres YOUR_POSTGRES_DATABASE_CONNECTION_STRING up
    ```
-3. Build and Run:
+4. Build and Run:
    ```
    go build; go build; .\rss-aggregator.exe
    ```
